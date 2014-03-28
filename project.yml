@@ -1,0 +1,12 @@
+name: MIQExtension
+release: 0.1
+author: Dave Neary
+bugtracker: https://github.com/dneary/MIQExtension/issues
+tags: control,qos,hook
+description: |
+    MIQExtension is a rule-set for ManageIQ which contains common VM placement rules, including:
+    * Ensure that two VMs are launched on different hosts
+    * Share load evenly
+    * Minimise number of hosts used up to a capacity limit
+    * High priority VMs get dedicated resources
+  
